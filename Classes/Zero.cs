@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UndefinedExpressions
 {
-    internal class Zero : Number
+    public class Zero : Number
     {
         public Zero(Number number)
         {

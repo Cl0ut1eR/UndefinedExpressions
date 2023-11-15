@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UndefinedExpressions
 {
-    internal class Infinity : Number
+    public class Infinity : Number
     {
         public Infinity(Number number)
         {

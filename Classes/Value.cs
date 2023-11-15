@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UndefinedExpressions
 {
-    internal class Value : Number
+    public class Value : Number
     {
         private double _value;
 

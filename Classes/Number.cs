@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace UndefinedExpressions
 {
-    static class NumberTypes { public enum types { Value,Infinity,Zero}; }
-    internal abstract class Number
+    public static class NumberTypes { public enum types { Value,Infinity,Zero}; }
+    public abstract class Number
     {
         public abstract NumberTypes.types type { get; }
         public Number value;
